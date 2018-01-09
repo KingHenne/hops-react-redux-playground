@@ -1,9 +1,8 @@
 import createMemoryHistory from 'history/createMemoryHistory';
+import {routerMiddleware, routerReducer} from 'universal-react-router-redux';
 
 import {ReactContext as HopsReactContext} from 'hops-react';
 import {ReduxContext as HopsReduxContext} from 'hops-redux';
-
-import {routerMiddleware, routerReducer} from './universal-react-router-redux';
 
 export class ReactContext extends HopsReactContext {
   enhanceElement(element) {

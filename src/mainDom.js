@@ -1,6 +1,7 @@
 import createBrowserHistory from 'history/createBrowserHistory';
 import React from 'react';
 import {Provider} from 'react-redux';
+import {ConnectedRouter} from 'universal-react-router-redux';
 
 import config from 'hops-config';
 import {combineContexts, render} from 'hops-react';
@@ -9,7 +10,6 @@ import {App} from './app';
 import {ReactContext, ReduxContext} from './context';
 import reducers from './reducers';
 import {routes} from './routes';
-import {ConnectedRouter} from './universal-react-router-redux';
 
 class DomReduxContext extends ReduxContext {
   createHistory() {

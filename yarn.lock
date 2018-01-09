@@ -6195,6 +6195,15 @@ units-css@^0.4.0:
     isnumeric "^0.2.0"
     viewport-dimensions "^0.2.0"
 
+universal-react-router-redux@^1.0.0-1:
+  version "1.0.0-1"
+  resolved "https://registry.yarnpkg.com/universal-react-router-redux/-/universal-react-router-redux-1.0.0-1.tgz#1a41f8071daf5454df837a34aad5aec8ec4fb990"
+  dependencies:
+    history "^4.7.2"
+    prop-types "^15.6.0"
+    react-router "^4.2.0"
+    react-router-config "^1.0.0-beta.4"
+
 unpipe@1.0.0, unpipe@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/unpipe/-/unpipe-1.0.0.tgz#b2bf4ee8514aae6165b4817829d21b2ef49904ec"

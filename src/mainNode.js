@@ -1,5 +1,6 @@
 import React from 'react';
 import {Provider} from 'react-redux';
+import {StaticRouter, createStaticHistory} from 'universal-react-router-redux';
 
 import config from 'hops-config';
 import {combineContexts, render} from 'hops-react';
@@ -8,10 +9,6 @@ import {App} from './app';
 import {ReactContext, ReduxContext} from './context';
 import reducers from './reducers';
 import {routes} from './routes';
-import {
-  StaticRouter,
-  createStaticHistory,
-} from './universal-react-router-redux';
 
 class NodeReduxContext extends ReduxContext {
   constructor(options) {
